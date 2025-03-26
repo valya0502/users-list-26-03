@@ -48,6 +48,7 @@ $header-height: 50px;
   border-bottom: 1px solid #999;
   background: #eee;
   transition: .3s ease-in-out;
+  z-index: 1;
 
   &.scrolled {
     transform: translateY(-$header-height);
